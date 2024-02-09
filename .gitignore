@@ -26,6 +26,29 @@
 *.a
 *.lib
 
+# IDE and Editor specific
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.sublime-workspace
+*.sublime-project
+
+# Build systems
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.make
+*.cmake
+
+# Other temporary files
+*.bak
+*.tmp
+*.log
+*.tlog
+
 # Executables
 *.exe
 *.out
